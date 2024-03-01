@@ -6,10 +6,44 @@
 	border-radius: 20px;
 	overflow: hidden;
 	padding: 20px;
+	display: flex;
+	flex-direction: column;
 }
-.textarea{
-	width: 100%;
+.scroll{
+	flex: 1;
+	overflow: scroll;
+}
+.title{
+	font-size: 30px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+.treeItemBox{
+	/* padding: 10px 0; */
+	display: flex;
+}
+.treeItem {
+	display: flex;
+	align-items: end;
+	height: 40px;
+}
+.pos{
+	flex-shrink: 0;
+}
+.line {
+	box-sizing: border-box;
+	width: 100px;
 	height: 100%;
-	outline: none;
-	resize: none;
+	border: 3px solid #000;
+	border-top: none;
+	border-right: none ;
+}
+.name{
+	font-size: 20px;
+	margin-left: 10px;
+	/* transform: translateY(10px); */
+}
+.error{
+	font-size: 20px;
+	color: red;
 }
