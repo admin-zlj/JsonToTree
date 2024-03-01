@@ -1,0 +1,15 @@
+.warp {
+	margin-top: 50px;
+	width: 400px;
+	height: 500px;
+	border: 1px solid #000;
+	border-radius: 20px;
+	overflow: hidden;
+	padding: 20px;
+}
+.textarea{
+	width: 100%;
+	height: 100%;
+	outline: none;
+	resize: none;
+}
